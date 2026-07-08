@@ -1,0 +1,48 @@
+:root{
+    --king:rgb(255, 98, 0);
+    --queen:rgb(241, 141, 157);
+    --padingbtn:20px 40px;
+    --btnweight:600;
+    --radius:30px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+h1{
+    font-size: 40px;
+}
+h1 span{
+    color: var(--king);
+}
+.btn1{
+    background-color: var(--king);
+    color: var(--queen);
+    padding: var(--padingbtn);
+    font-weight: var(--btnweight);
+    border-radius: var(--radius);
+}
+.btn2{
+    background-color: var(--queen);
+    color: var(--king);
+    padding: var(--padingbtn);
+    font-weight: var(--btnweight);
+    border-radius: var(--radius);
+}
+.btn3{
+    background-color: var(--queen);
+    color: var(--king);
+    padding: var(--padingbtn);
+    border-radius: var(--radius);
+    font-weight: var(--btnweight);
+}
+
